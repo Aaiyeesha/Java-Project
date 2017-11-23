@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SouceCode.ServerController">
+   <children>
+      <ImageView fitHeight="351.0" fitWidth="511.0" layoutX="45.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sky1.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="137.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO TYPERACER">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.4523809523809524" radius="0.5">
+               <stops>
+                  <Stop color="#11919c" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="301.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Increase your typing speed" wrappingWidth="231.72705078125">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.4523809523809524" radius="0.5">
+               <stops>
+                  <Stop color="#11919c" />
+                  <Stop color="#d4ee2b" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button fx:id="racebtn" layoutX="244.0" layoutY="242.0" mnemonicParsing="false" onAction="#showSorryPage" text="Race mode" textFill="#d03a3a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="practicebtn" layoutX="223.0" layoutY="178.0" mnemonicParsing="false" onAction="#buttonclicked" text="Practice Mode" textFill="#cd2d2d">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
